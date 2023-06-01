@@ -13,7 +13,7 @@ export default function Menu () {
                 <Link href="/menu">Menú</Link>
             </li>
             <li>
-                <Link href="/reservacion">Reservación</Link>
+                <Link href="/reservaciones">Reservaciones</Link>
             </li>
             <li>
                 <Link href="/facturacion">Facturación</Link>
