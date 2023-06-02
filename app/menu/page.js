@@ -1,5 +1,7 @@
 export default function MenuRestaurant() {
     return (
-        <div>Menú</div>
+        <object type="aplication/pdf" data="/menu.pdf">
+            <p>No se pudo visualizar el archivo PDF. Puedes descargarlo <a href="/menu.pdf">aquí</a>.</p>
+        </object>
     );
 }
