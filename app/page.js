@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <main>
       <Logo />
-
-      <div className='card'>
+      
+      <div className='card mt-4 mx-5 p-3'>
         <div className='row'>
           <Image className='col-md-4 img-fluid' src="/images/food.jpg" width={380} height={200} alt="Image of food"/>
           <div className='col-md-8 card-body'>
@@ -17,7 +17,7 @@ export default function Home() {
         </div>
       </div>
       
-      <div className='card'>
+      <div className='card my-4 mx-5 p-3'>
         <div className='row'>
           <div className='col-md-8 card-body'>
             <h4 className='card-title'>Title</h4>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutUs() {
     return(
-        <div className='card'>
+        <div className='card my-4 mx-5 p-3'>
         <div className='row'>
           <div className='col-md-8 card-body'>
             <h4 className='card-title'>Sobre nosotros</h4>

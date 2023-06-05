@@ -1,19 +1,22 @@
 export default function Reservations() {
     return(
-        <div className="container-fluid">
+        <div className="container">
+            <div className="mb-3">
+                <h3>Haz un reservación:</h3>
+            </div>
             <form action="#" method="post">
                 <fieldset>
-                    <div>
+                    <div className="mb-3">
                         <label className="form-label">Fecha:
                             <input type="date" className="form-control" id="date" name="date"></input>
                         </label>
                     </div>
-                    <div>
+                    <div className="mb-3">
                         <label className="form-label">Personas:
                             <input type="number" className="form-control" id="num-people" name="num-people" min={1} max={10}></input>
                         </label>
                     </div>
-                    <div>
+                    <div className="mb-3">
                         <label className="form-label">Hora:
                             <select id="time" name="time" className="form-select">
                                 <option value="12">12:00 pm</option>
@@ -31,28 +34,28 @@ export default function Reservations() {
                     </div>
                 </fieldset>
                 <fieldset>
-                    <div>
+                    <div className="mb-3">
                         <label className="form-label">Nombre:
                             <input type="text" className="form-control" id="nombre" name="nombre"></input>
                         </label>
                     </div>
-                    <div>
+                    <div className="mb-3">
                         <label className="form-label">Apellidos:
                             <input type="text" className="form-control" id="apellidos" name="apellidos"></input>
                         </label>
                     </div>
-                    <div>
+                    <div className="mb-3">
                         <label className="form-label">Email:
                             <input type="email" className="form-control" id="email" name="email"></input>
                         </label>
                     </div>
-                    <div>
+                    <div className="mb-3">
                         <label className="form-label">Teléfono:
                             <input type="tel" className="form-control" id="telefono" name="telefono"></input>
                         </label>
                     </div>
                 </fieldset>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit" className="btn btn-primary mb-3">Submit</button>
             </form>
         </div>
     );
