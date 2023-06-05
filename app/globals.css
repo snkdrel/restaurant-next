@@ -105,3 +105,7 @@ a {
     color-scheme: dark;
   }
 }
+
+.pb-body {
+  padding-bottom: 10rem;
+}
